@@ -26,8 +26,10 @@
                     <img src="img/logo.png" class="img-fluid" />
                 </div>
                 <div class="col">
+                    <a href="#reserveForm">  <button type="button" class="btn btn-primary">Reserve Campsite</button></a>
                     <h1>Nucamp</h1>
                     <h2>a better way to camp</h2>
+                    </div>
                 </div>
             </div>
         </div>
@@ -84,6 +86,37 @@
                     </div>
                 </div>
             </div>
+        </div class= "row row-content">
+        <div class="col-sm-6">
+        </div class="card-header">
+        <h3 class="bg-info text-white">Reserve a campsites</h3>
+        <div class="card-body">
+            <form id="reserveForm">
+            <div class="row">
+            <label for="Number of Campers">Number of Campers</label>
+            </div class="col">
+   <select id="numCamper" class="col-lg-6">
+<option> Select</option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+
+   </select>
+   </div>
+   <div class="col"></div>
+   <label>Date</label>
+   <input class="col-lg-6" type="date" id="date" placeholder="date">
+   </div>
+                <div class="row">
+<div class="col">
+    <button type="button" class="btn btn-primary">Search</button>
+</div>     
+
+        </form>
+    </div>
         </div>
 
         <footer class="site-footer">
